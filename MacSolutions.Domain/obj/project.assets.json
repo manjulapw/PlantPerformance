@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/MacSolutions.Domain.csproj",
+      "projectUniqueName": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/MacSolutions.Domain.csproj",
       "projectName": "MacSolutions.Domain",
-      "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/MacSolutions.Domain.csproj",
+      "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/MacSolutions.Domain.csproj",
       "packagesPath": "/Users/manjula/.nuget/packages/",
-      "outputPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/obj/",
+      "outputPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/manjula/.nuget/NuGet/NuGet.Config"

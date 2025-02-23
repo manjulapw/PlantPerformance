@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MacSolutions.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8934ccb3ce90d474435be52c62b0902bd8f328fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e7bce2fe90d961544afe725401690db3b0f8eff")]
 [assembly: System.Reflection.AssemblyProductAttribute("MacSolutions.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MacSolutions.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj": {}
+    "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/MacSolutions.Application.csproj": {
+    "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/MacSolutions.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/MacSolutions.Application.csproj",
+        "projectUniqueName": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/MacSolutions.Application.csproj",
         "projectName": "MacSolutions.Application",
-        "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/MacSolutions.Application.csproj",
+        "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/MacSolutions.Application.csproj",
         "packagesPath": "/Users/manjula/.nuget/packages/",
-        "outputPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/",
+        "outputPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/manjula/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/MacSolutions.Domain.csproj": {
-                "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/MacSolutions.Domain.csproj"
+              "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/MacSolutions.Domain.csproj": {
+                "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/MacSolutions.Domain.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/MacSolutions.Domain.csproj": {
+    "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/MacSolutions.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/MacSolutions.Domain.csproj",
+        "projectUniqueName": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/MacSolutions.Domain.csproj",
         "projectName": "MacSolutions.Domain",
-        "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/MacSolutions.Domain.csproj",
+        "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/MacSolutions.Domain.csproj",
         "packagesPath": "/Users/manjula/.nuget/packages/",
-        "outputPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Domain/obj/",
+        "outputPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/manjula/.nuget/NuGet/NuGet.Config"
@@ -140,14 +140,14 @@
         }
       }
     },
-    "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj": {
+    "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj",
+        "projectUniqueName": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj",
         "projectName": "MacSolutions.Infrastructure",
-        "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj",
+        "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj",
         "packagesPath": "/Users/manjula/.nuget/packages/",
-        "outputPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/obj/",
+        "outputPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/manjula/.nuget/NuGet/NuGet.Config"
@@ -162,8 +162,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/MacSolutions.Application.csproj": {
-                "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/MacSolutions.Application.csproj"
+              "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/MacSolutions.Application.csproj": {
+                "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/MacSolutions.Application.csproj"
               }
             }
           }

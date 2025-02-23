@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UCfQARRasnc=",
+  "dgSpecHash": "OAwWoAduvfM=",
   "success": true,
-  "projectFilePath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/MacSolutions.Application.csproj",
+  "projectFilePath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/MacSolutions.Application.csproj",
   "expectedPackageFiles": [
     "/Users/manjula/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/manjula/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

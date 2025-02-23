@@ -1,0 +1,88 @@
+# Visual Studio specific
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated_Code/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+obj/
+app.publish/
+out/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+[Dd]esktop.ini
+[Tt]humbs.db
+*.DS_Store
+
+# IDE specific files
+.idea/
+*.iml
+
+# ASP.NET Core specific
+wwwroot/node_modules/
+wwwroot/lib/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Config files
+appsettings.json
+appsettings.*.json
+
+# Secrets
+**/secrets.json
+.env
+
+# Rider
+.idea/
+
+# Byebug
+.byebug_history
+
+# Tooling
+.vscode/
+.toolsettings/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# JetBrains Rider
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/ssl.keystore
+.idea/**/deployment.xml
+.idea/**/deploymentRemote.xml
+.idea/**/deploymentTarget.*
+.idea/**/settingsRepository.xml
+.idea/**/macros.xml
+.idea/**/flex_ui.xml
+
+# DotNetCore SDK-specific files
+global.json
+
+.fake

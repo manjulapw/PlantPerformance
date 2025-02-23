@@ -4361,11 +4361,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.API/MacSolutions.API.csproj",
+      "projectUniqueName": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.API/MacSolutions.API.csproj",
       "projectName": "MacSolutions.API",
-      "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.API/MacSolutions.API.csproj",
+      "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.API/MacSolutions.API.csproj",
       "packagesPath": "/Users/manjula/.nuget/packages/",
-      "outputPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.API/obj/",
+      "outputPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/manjula/.nuget/NuGet/NuGet.Config"
@@ -4380,11 +4380,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/MacSolutions.Application.csproj": {
-              "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/MacSolutions.Application.csproj"
+            "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/MacSolutions.Application.csproj": {
+              "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Application/MacSolutions.Application.csproj"
             },
-            "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj": {
-              "projectPath": "/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj"
+            "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj": {
+              "projectPath": "/Users/manjula/SandBox/PlantPerformance/MacSolutions.Infrastructure/MacSolutions.Infrastructure.csproj"
             }
           }
         }

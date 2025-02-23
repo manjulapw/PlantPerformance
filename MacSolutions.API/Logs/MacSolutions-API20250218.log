@@ -1,0 +1,166 @@
+2025-02-18 21:41:53.008 +00:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.2637 ms
+2025-02-18 21:41:52.989 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 28.8195 ms
+2025-02-18 21:41:53.187 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 44.5804 ms
+2025-02-18 21:42:12.633 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-18 21:42:12.762 +00:00 [INF] Get all Alarms
+2025-02-18 21:42:12.864 +00:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-18 21:42:13.049 +00:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."CreatedAt", e."UpdatedAt", e."alarmRate", e."percentageOutsideTarget"
+FROM "Eemua_Alarm" AS e
+2025-02-18 21:42:13.060 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MacSolutions.Infrastructure.Persistence.MacSolutionsDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Eemua_Alarm" does not exist
+
+POSITION: 94
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Eemua_Alarm" does not exist
+    Position: 94
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "Eemua_Alarm" does not exist
+
+POSITION: 94
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Eemua_Alarm" does not exist
+    Position: 94
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2025-02-18 21:42:13.063 +00:00 [ERR] HTTP GET /api/Alarms responded 500 in 437.6530 ms
+Npgsql.PostgresException (0x80004005): 42P01: relation "Eemua_Alarm" does not exist
+
+POSITION: 94
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at MacSolutions.Infrastructure.Repositories.AlarmRepository.GetAllAsync() in /Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/Repositories/AlarmRepository.cs:line 25
+   at MacSolutions.Application.Alarms.Queries.GetAllAlarms.GetAllAlarmsQueryHandler.Handle(GetAllAlarmsQuery request, CancellationToken cancellationToken) in /Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/Alarms/Queries/GetAllAlarms/GetAllAlarmsQueryHandler.cs:line 16
+   at MacSolutions.API.Controllers.AlarmController.GetAll() in /Users/manjula/SandBox/MAC_Assignment/MacSolutions.API/Controllers/AlarmController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Eemua_Alarm" does not exist
+    Position: 94
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2025-02-18 21:42:13.069 +00:00 [ERR] 42P01: relation "Eemua_Alarm" does not exist
+
+POSITION: 94
+Npgsql.PostgresException (0x80004005): 42P01: relation "Eemua_Alarm" does not exist
+
+POSITION: 94
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at MacSolutions.Infrastructure.Repositories.AlarmRepository.GetAllAsync() in /Users/manjula/SandBox/MAC_Assignment/MacSolutions.Infrastructure/Repositories/AlarmRepository.cs:line 25
+   at MacSolutions.Application.Alarms.Queries.GetAllAlarms.GetAllAlarmsQueryHandler.Handle(GetAllAlarmsQuery request, CancellationToken cancellationToken) in /Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/Alarms/Queries/GetAllAlarms/GetAllAlarmsQueryHandler.cs:line 16
+   at MacSolutions.API.Controllers.AlarmController.GetAll() in /Users/manjula/SandBox/MAC_Assignment/MacSolutions.API/Controllers/AlarmController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at MacSolutions.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in /Users/manjula/SandBox/MAC_Assignment/MacSolutions.API/Middlewares/ErrorHandlingMiddleware.cs:line 11
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Eemua_Alarm" does not exist
+    Position: 94
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2025-02-18 21:50:06.333 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 31.7055 ms
+2025-02-18 21:50:06.354 +00:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.7221 ms
+2025-02-18 21:50:06.535 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 48.1254 ms
+2025-02-18 21:50:08.868 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.3391 ms
+2025-02-18 21:50:08.877 +00:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.2418 ms
+2025-02-18 21:50:08.944 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.4623 ms
+2025-02-18 21:50:27.639 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-18 21:50:27.679 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 46.8658 ms
+2025-02-18 21:51:11.598 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 1.5322 ms
+2025-02-18 22:12:45.990 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 29.2863 ms
+2025-02-18 22:12:46.014 +00:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.1300 ms
+2025-02-18 22:12:46.132 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 51.0725 ms
+2025-02-18 22:13:07.517 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-18 22:13:07.555 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 44.3060 ms
+2025-02-18 22:13:56.910 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 2.1716 ms
+2025-02-18 22:14:22.719 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.7401 ms
+2025-02-18 22:14:31.342 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.3912 ms
+2025-02-18 22:14:36.282 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.8542 ms
+2025-02-18 22:14:40.847 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.4498 ms
+2025-02-18 22:14:42.865 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.4042 ms
+2025-02-18 22:15:07.644 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.8991 ms
+2025-02-18 22:15:12.346 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.5775 ms
+2025-02-18 22:15:16.886 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 3.3357 ms
+2025-02-18 22:15:22.975 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.5613 ms
+2025-02-18 22:15:27.131 +00:00 [INF] HTTP GET /api/Alarms/analyze responded 200 in 0.7653 ms

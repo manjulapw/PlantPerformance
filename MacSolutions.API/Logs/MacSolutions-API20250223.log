@@ -1,0 +1,55 @@
+2025-02-23 11:47:21.556 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 29.3018 ms
+2025-02-23 11:47:21.580 +00:00 [INF] HTTP GET /swagger/index.js responded 200 in 1.2650 ms
+2025-02-23 11:47:21.592 +00:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 12.5073 ms
+2025-02-23 11:47:21.597 +00:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 18.0690 ms
+2025-02-23 11:47:21.733 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 46.3030 ms
+2025-02-23 11:48:17.332 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-23 11:48:17.370 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 44.7755 ms
+2025-02-23 11:48:27.825 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 6.0943 ms
+2025-02-23 11:48:39.529 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 1.8201 ms
+2025-02-23 11:48:47.327 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 0.6834 ms
+2025-02-23 11:48:56.128 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 0.6945 ms
+2025-02-23 11:49:42.400 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 0.3395 ms
+2025-02-23 11:58:39.330 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-23 11:58:39.388 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 64.4363 ms
+2025-02-23 11:58:59.977 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 3.0902 ms
+2025-02-23 11:59:05.420 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 2.0715 ms
+2025-02-23 11:59:15.545 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 0.5626 ms
+2025-02-23 11:59:23.601 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 1.0433 ms
+2025-02-23 11:59:37.560 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 0.5670 ms
+2025-02-23 18:07:14.626 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 31.0485 ms
+2025-02-23 18:07:14.645 +00:00 [INF] HTTP GET /swagger/index.js responded 200 in 2.3596 ms
+2025-02-23 18:07:14.786 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 41.2545 ms
+2025-02-23 18:07:36.101 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-23 18:07:36.216 +00:00 [INF] Creating a new Alarm
+2025-02-23 18:07:36.318 +00:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-23 18:07:36.514 +00:00 [INF] HTTP POST /api/Alarms responded 201 in 418.7714 ms
+2025-02-23 18:07:55.633 +00:00 [INF] Creating a new Alarm
+2025-02-23 18:07:55.678 +00:00 [INF] HTTP POST /api/Alarms responded 201 in 47.8208 ms
+2025-02-23 18:08:01.527 +00:00 [INF] Get all Alarms
+2025-02-23 18:08:01.627 +00:00 [INF] HTTP GET /api/Alarms responded 200 in 112.9875 ms
+2025-02-23 18:08:13.537 +00:00 [INF] Getting Alarm 1
+2025-02-23 18:08:13.595 +00:00 [INF] HTTP GET /api/Alarms/1 responded 200 in 63.9821 ms
+2025-02-23 18:09:01.698 +00:00 [INF] Deleting Alarm with id: 2
+2025-02-23 18:09:01.703 +00:00 [INF] HTTP PATCH /api/Alarms/2 responded 204 in 18.3350 ms
+2025-02-23 18:09:09.198 +00:00 [INF] Get all Alarms
+2025-02-23 18:09:09.200 +00:00 [INF] HTTP GET /api/Alarms responded 200 in 2.5965 ms
+2025-02-23 18:09:11.744 +00:00 [INF] Get all Alarms
+2025-02-23 18:09:11.745 +00:00 [INF] HTTP GET /api/Alarms responded 200 in 3.7198 ms
+2025-02-23 18:09:19.495 +00:00 [INF] Deleting Alarm with id: 2
+2025-02-23 18:09:19.498 +00:00 [INF] HTTP PATCH /api/Alarms/2 responded 204 in 4.2683 ms
+2025-02-23 18:09:25.255 +00:00 [INF] Get all Alarms
+2025-02-23 18:09:25.256 +00:00 [INF] HTTP GET /api/Alarms responded 200 in 1.8961 ms
+2025-02-23 18:10:30.285 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 27.8105 ms
+2025-02-23 18:10:30.303 +00:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.9811 ms
+2025-02-23 18:10:30.470 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 45.1260 ms
+2025-02-23 18:10:31.146 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.6294 ms
+2025-02-23 18:10:31.158 +00:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.3672 ms
+2025-02-23 18:10:31.208 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.8704 ms
+2025-02-23 18:10:38.163 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-02-23 18:10:38.238 +00:00 [INF] Deleting Alarm with id: 2
+2025-02-23 18:10:38.346 +00:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-23 18:10:38.603 +00:00 [INF] HTTP DELETE /api/Alarms/2 responded 204 in 446.4853 ms
+2025-02-23 18:10:49.235 +00:00 [INF] Get all Alarms
+2025-02-23 18:10:49.259 +00:00 [INF] HTTP GET /api/Alarms responded 200 in 73.6805 ms
+2025-02-23 18:26:38.231 +00:00 [INF] HTTP POST /api/PlantPerformance/determinezone responded 200 in 28.6385 ms

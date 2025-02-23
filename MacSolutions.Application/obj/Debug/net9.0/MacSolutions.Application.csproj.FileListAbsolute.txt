@@ -1,0 +1,16 @@
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolutions.Application.csproj.AssemblyReference.cache
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolutions.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolutions.Application.AssemblyInfoInputs.cache
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolutions.Application.AssemblyInfo.cs
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolutions.Application.csproj.CoreCompileInputs.cache
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolutions.Application.sourcelink.json
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/bin/Debug/net9.0/MacSolutions.Application.deps.json
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/bin/Debug/net9.0/MacSolutions.Application.dll
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/bin/Debug/net9.0/MacSolutions.Application.pdb
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/bin/Debug/net9.0/MacSolutions.Domain.dll
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/bin/Debug/net9.0/MacSolutions.Domain.pdb
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolut.D56E2EFD.Up2Date
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolutions.Application.dll
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/refint/MacSolutions.Application.dll
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/MacSolutions.Application.pdb
+/Users/manjula/SandBox/MAC_Assignment/MacSolutions.Application/obj/Debug/net9.0/ref/MacSolutions.Application.dll
